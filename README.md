@@ -1,1 +1,1 @@
-# Email
+# EmailAutomation
