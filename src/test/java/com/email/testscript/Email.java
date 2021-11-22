@@ -64,29 +64,7 @@ public class Email extends ObjectRespo{
 
 			// Create object to add Attachment
 			MimeBodyPart messagecontent = new MimeBodyPart();
-			messagecontent.setContent("Hello, <br>\r\n" + 
-					"<br>My name is G v v Prasad, <br>\r\n" + 
-					"<br>I came across an open QA Position that is available in your organization, I went through Job Description and I find myself fit for it and would like to apply for it. <br>\r\n" + 
-					"<br>I started my career as a Manual Tester, then moved to API Testing and started working as both Manual & API Tester. <br>I also have knowlegde on Automation (Selenium with Java). <br>I always try to improve my skill. <br>\r\n" + 
-					"<br>\r\n" + 
-					"<b>Professional Summary:</b>\r\n" + 
-					"<br>Having 2.10 years of experience in the field of Software Testing. <br> Software Test Engineer with experience in <b>\r\n" + 
-					"  <i>Manual, API (Postman)</i>\r\n" + 
-					"</b> and Agile Methodology.\r\n" + 
-					"<br> Having knowledge of <b>Automation (selenium with Java)</b>. <br>\r\n" + 
-					"<br>\r\n" + 
-					"<b>Total Experience:</b> 2.10 years <br>\r\n" + 
-					"<b>Manual Testing:</b> 2.10 years <br>\r\n" + 
-					"<b>API Testing:</b> 1 years <br>\r\n" + 
-					"<br>\r\n" + 
-					"<b>Current CTC:</b> 3.5 LPA <br><br>\r\n" + 
-					"\r\n" + 
-					"<b>Prefered Location:</b> Hyderbad<br>\r\n" + 
-					"\r\n" + 
-					"<br>\r\n" + 
-					"<b>Skills:</b> Manual, API (Postman), Automation (selenium with Java), TestNG <br>\r\n" + 
-					"<br>Do let me know if you need any other information from my end. <br>Please find attached my latest resume for consideration. <br>\r\n" + 
-					"<br> Thanks & Regards <br> G v v Prasad <br> 998950812","text/html");
+			messagecontent.setContent("<p>Hello,<br /><br />My name is G v v Prasad,<br /><br />I came across an open QA Position in your organization, I went through the Job Description and I find myself fit for it and would like to apply for it. <br /><br />I started my career as a Manual Tester, then learn Automation &amp; API testing.<br />I have worked on both Automation &amp; API Testing.<br />Presently I am working on Manual &amp; API Testing together. <br /><br /><strong>Professional Summary:</strong><br />Having 2.11 years of experience in the field of Software Testing.<br />Software Test Engineer with experience in <strong>Manual, Automation (Selenium with Java), API (Postman)</strong>, and Agile Methodology.<br /><br /><strong>Total Experience:</strong> 2.11 years <br /><strong>Manual Testing:</strong> 2.11 years <br /><strong>Automation Testing:</strong> 1Year<br /><strong>API Testing:</strong> 1 year <br /><br /><strong>Current CTC:</strong> 3.5 LPA <br /><br /><strong>Notice Period:</strong> 1 Month (Negotiable) <br /><br /><strong>Preferred Location:</strong> Hyderabad, Bangalore<br /><br /><strong>Skills:</strong> Manual, Automation (selenium with Java), API (Postman)<br /><br />Do let me know if you need any other information from my end. <br />Please find attached my latest resume for consideration. <br /><br />Thanks &amp; Regards <br />G v v Prasad <br />998950812</p>","text/html");
 
 			// Create another object to add Attachment
 			MimeBodyPart attachment1 = new MimeBodyPart();
